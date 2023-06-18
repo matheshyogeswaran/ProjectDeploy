@@ -6,7 +6,7 @@ function JiraTableAll() {
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch(`http://localhost:8000/jiras/all`);
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/jiras/all`);
       const json = await response.json();
       setData(json);
     }

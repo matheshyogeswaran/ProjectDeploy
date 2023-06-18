@@ -10,7 +10,7 @@ const TableSort = ({ userRoleName }) => {
   const [usersPerPage] = useState(5); // Number of users to display per page
 
   function fillTable() {
-    let apiEndpoint = `http://localhost:8000/users/all?userRoleName=${userRoleName}`;
+    let apiEndpoint = `${process.env.REACT_APP_API_URL}/users/all?userRoleName=${userRoleName}`;
 
     axios.get(apiEndpoint).then((response) => {
       let users = response.data;
