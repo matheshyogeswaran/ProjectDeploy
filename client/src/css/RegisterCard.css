@@ -1,0 +1,35 @@
+
+  .purple-form-card {
+    background-color: #4f096f; 
+    /* Add any additional styles for the card */
+  }
+  
+    .purple-form-card .card-body {
+        background-color: #ffffff;
+        /* Add any additional styles for the card body */
+    }
+  
+    .purple-form-card .card-title {
+        color: #ffffff;
+        /* Add any additional styles for the card title */
+    }
+
+    .purple-form-card .btn {
+        background-color: #66347F;
+        /* Add any additional styles for the card button */
+    }
+
+    .purple-form-card .btn:hover {
+        background-color: #4f096f;
+        /* Add any additional styles for the card button on hover */
+    }
+
+    
+
+
+    .wrapper {
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh; /* Ensure the wrapper covers the full viewport height */
+    }
+    

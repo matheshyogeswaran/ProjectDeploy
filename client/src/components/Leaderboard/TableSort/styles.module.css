@@ -1,0 +1,164 @@
+.container_list {
+	margin: 10px;
+	align-items: flex-start;
+	padding: 10px 20px 50px 100px;
+	box-shadow: var(--box-shadow);
+	background-color: white;
+	border-radius: 4px;
+}
+
+
+.heading {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: var(--box-shadow);
+	margin: 10px;
+	background-color: white;
+	border-radius: 4px;
+	padding-top: 15px;
+}
+
+.heading_list {
+	margin: 0;
+	font-size: 16px;
+	margin: 10px;
+	text-align: center;
+}
+
+.container_list {
+	margin: 10px;
+	align-items: flex-start;
+	padding: 10px 20px;
+	box-shadow: var(--box-shadow);
+	background-color: white;
+	border-radius: 4px;
+}
+
+.img_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 0.3;
+	margin-left: 20px;
+}
+
+.fname_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1.5;
+}
+
+.count_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1.0;
+}
+
+.rating_tab {
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	flex: 1.5;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	margin: 5px 10px;
+	box-shadow: var(--box-shadow);
+	cursor: pointer;
+	transition: all 0.1s ease;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.detail:hover {
+	scale: 1.01;
+}
+
+.title_container {
+	flex: 2;
+	display: flex;
+	align-items: center;
+	object-fit: contain;
+}
+
+.detail_img {
+	width: 40px;
+	height: 60px;
+	object-fit: contain;
+	margin: 0 10px;
+}
+
+.detail_title {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.jobRole_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.detail_jobRole {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.rating_container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.star_img {
+	width: 25px;
+	height: 25px;
+	margin-right: 4px;
+}
+
+.detail_rating {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.user {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .fname {
+	display: inline-block;
+	vertical-align: middle;
+	flex: 3;
+  }
+  
+  .avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+	flex: 0.3;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: middle;
+  }
+
+  .star{
+	width: 20px;
+	height: 20px;
+	padding-bottom: 3px;
+  }
+  
+ 

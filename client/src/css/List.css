@@ -1,0 +1,37 @@
+.innerbg {
+    background-color: #bdcebe;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.heading {
+    alignments: center;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    font-color: brown;
+}
+
+.button {
+    position: absolute;
+
+}
+
+.tablecontent {
+    padding-top: 40px;
+}
+
+.cat {
+    padding-top: 40px;
+}
+
+.job {
+    padding-top: 40px;
+}
+
+.mon {
+    padding-top: 40px;
+}

@@ -1,0 +1,51 @@
+.full-wrapper {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 60px;
+}
+
+.full-container {
+	width: 1000px;
+	border-radius: 10px;
+	box-shadow: var(--box-shadow);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.full-head {
+	display: flex;
+	align-content: center;
+	height: 80px;
+	background-color: black;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 100px;
+	object-fit: contain;
+	margin-left: 15px;
+}
+
+.full-body {
+	height: 500px;
+	display: flex;
+}
+
+.table_container {
+	flex: 3;
+	position: relative;
+}
+
+.filter_container {
+	flex: 1;
+}
+
+.head{
+	flex: 0.75;
+	padding-top: 10px;
+	color: #ff004f;
+}
